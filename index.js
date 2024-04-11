@@ -22,7 +22,7 @@ database.connect();
 app.use(express.json());
 app.use(cookieParser());
 const corsOptions ={
-	origin:'https://myystudynotion.netlify.app/', 
+	origin:'*', 
 	credentials:true,            //access-control-allow-credentials:true
 	optionSuccessStatus:200,
  }
